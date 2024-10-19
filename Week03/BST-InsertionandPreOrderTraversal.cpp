@@ -25,7 +25,7 @@ node *makeTreeNode(int x){
 }
 
 node *insertNode(node *root, int data){
-    node *newNode, *p;
+    node *newNode;
     newNode = makeTreeNode(data);
     if (root == NULL) return newNode;
     
